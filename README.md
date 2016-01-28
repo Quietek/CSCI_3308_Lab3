@@ -1,1 +1,2 @@
-Lab3 Readme stuff
+Tanner Tracy
+CSCI 3308 Lab 3

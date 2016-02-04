@@ -1,0 +1,72 @@
+  424  git init CSCI_3308_Lab3
+  425  cd CSCI_3308_Lab3
+  426  git init
+  427  git add README.md
+  428  touch README.md
+  429  vim README.md
+  430  cat README.md
+  431  git add README.md
+  432  git commit -m "first commit and readme"
+  433  git remote add origin https://github.com/Quietek/CSCI_3308_Lab3.git
+  434  git push -u origin master
+  435  vim README
+  436  ls
+  437  vim README.md 
+  438  touch hi.txt
+  439  touch date.txt
+  440  vim hi.txt
+  441  vim date.txt
+  442  add hi.txt
+  443  git add hi.txt
+  444  git add date.txt
+  445  git commit -m "added hi.txt and date.txt, and edited README.md to the correct contents"
+  446  ls
+  447  git push -u origin master
+  448  git push README.md
+  449  git commit -a
+  450  git commit -a -m "Re-commited to write changes to README.md"
+  451  git push -u origin master
+  452  git status
+  453  git tag 0.0.1
+  454  git push --tags origin
+  455  touch computer.txt
+  456  touch operatingsystem.txt
+  457  vi computer.txt
+  458  vi operatingsystem.txt 
+  459  git add computer.txt 
+  460  git add operatingsystem.txt 
+  461  git status
+  462  git commit -m "added computer.txt and operatingsystem.txt"
+  463  git push -u origin master
+  464  git checkout master
+  465  git checkout -b testing-new-files
+  466  touch class.txt
+  467  git add class.txt 
+  468  git status
+  469  git commit -m "added class.txt on testing new files branch"
+  470  git push origin testing-new-files
+  471  git checkout master
+  472  vi date.txt
+  473  git status
+  474  git commit -m "modified date.txt to include the time"
+  475  git commit -m "modified date.txt to include the time"
+  476  git add date.txt
+  477  git status
+  478  git commit -m "modified date.txt to include the time"
+  479  git push master
+  480  git push origin master
+  481  git merge testing-new-files
+  482  git merge testing-new-files -m "merging testing-new-files and master branch"
+  483  git push origin master
+  484  git checkout testing-new-files
+  485  ls
+  486  vi class.txt
+  487  git add class.txt
+  488  git commit -m "modified class.txt to include the class tag and number"
+  489  git push testing-new-files
+  490  git push origin testing-new-files
+  491  git log
+  492  git tag "v0.0.1" 2142a841aba0c0ed87214
+  493  git log
+  494  git push --tags origin master
+
